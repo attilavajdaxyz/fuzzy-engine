@@ -1,0 +1,18 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    outline: 1rem solid #3e606f;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem 2rem 2rem; /*TRBL*/
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #D1DBBD;
+  }
