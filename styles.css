@@ -9,10 +9,15 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 2rem 2rem 2rem; /*TRBL*/
+    margin: 3rem 3rem 3rem 3rem; /*TRBL*/
   }
   .box {
     width: 200px;
     height: 200px;
     background-color: #D1DBBD;
+    padding: 1rem;
+  }
+
+  h1 {
+      margin: 0;
   }
