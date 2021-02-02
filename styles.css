@@ -19,3 +19,20 @@ body {
 #welcome-section {
   height: 100vh;
 }
+
+a {
+  color:dimgray;
+  text-decoration: none;
+}
+
+a:hover {
+  color:gray
+}
+
+a:active {
+  color:lightgray;
+}
+
+a:visited {
+
+}
