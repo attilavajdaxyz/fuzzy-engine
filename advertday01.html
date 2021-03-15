@@ -17,6 +17,14 @@
         grid-gap: 20px 10px;
         background-color: fuchsia;
     }
+    ul {
+        grid-template-areas: 
+            'nav nav . .'
+            'nav nav . .'
+    }
+    li {
+        grid-area: nav;
+    }
     #title {
         color: dodgerblue;
         background-color: firebrick;
@@ -51,7 +59,7 @@
     <main id="main">
         <h1 id="title">Various adverts and pop-up cards</h1>
         <div id="card">
-            <h2 id="product-name">Lidle</h2>
+            <h2 id="product-name">Lidl</h2>
             <h3 id="slogan">olcson jobbat</h3>
         <p>latogasson el uzleteinkbe, bevasarlokozpont Budapest, XIII. ker 2121, Gerberics utca 7.</p>
         </div>
