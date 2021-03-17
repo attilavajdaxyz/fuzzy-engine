@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site a day 03</title>
+    <style>
+        #square-title {
+            font-size: 24px;
+        }
+        #square {
+            max-width: 100%;
+            height: 20px;
+            border: thistle 3px solid;
+        }
+        .square-box{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: #4679BD;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1 title="dark mode site">This is a site that works well with dark mode</h1>
+    <p id="square-title">this site also has a square on it</p>
+    
+    <div id="square">
+    </div>
+
+    <div class='square-box'>
+        <div class='square-content'>
+            <h3>test</h3>
+        </div>
+    </div>
+    
+
+    <form>
+    </form>    
+</body>
+</html>
