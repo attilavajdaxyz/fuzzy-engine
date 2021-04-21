@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.Header {
+    outline: 1px solid red;
+}
+
+.MainContainer {
+    outline: 1px solid red;
+}
+
+.EventHeader {
+    background-color: yellow;
+}
+

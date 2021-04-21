@@ -1,76 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Openwall - Jean-Marie Moncelet - Virtual Exhibition</title>
+    <link rel="stylesheet" href="css/artwall.css" />
 </head>
-<style>
-    html {
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    #header {
-        background-color: black;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        padding: 0.5em;
-    }
-    #title {
-        text-align: center;
-        font-size: 50px;
-        font-weight: 200;
-        margin: 0;
-    }
-    strong {
-        font-weight: 600;
-    }
-
-    #artwork {
-        max-width: 100%;
-    }
-    #info {
-        font-size: 13px;
-        text-align: justify;
-        margin: 0.1em;
-    }
-    #main {
-        display: flow;
-        flex-wrap: no-wrap;
-        flex-direction: column;
-        text-align: center;
-    }
-    #main-title {
-        background-color: black;
-        color: white;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-        padding: zero;
-        margin: zero;
-        font-size: 40px;
-        font-weight: 200;
-    }
-    #subtitle {
-        font-size: 30px;
-    }
-    #artist-name {
-        margin: 0.5em;
-        font-weight: 200;
-    }
-    #list-of-exhibitors {
-        background-color: #313131;
-        color: #c9c9c9;
-    }
-    #list-of-supporters {
-        background-color: #151515;
-        color: #FFFFFF;
-    }
-    
-    
-</style>
 <body>
-    <header id="header">
+    <header class="Header">
+        <div class="EventHeader">
+            <h1 class="EventHeader__Title">"future <span class="BoldText">is</span> now"</h1>
+            <p class="EventHeader__Description">Virtual exhibition with the participation of artWall's users, organized by artWall's founder curator László Ladányi</p>
+        </div>
+        <h2 class="Header__Subtitle">OPENWALL 2021</h2>
+    </header>
+    <main class="MainContainer">
+        <img class="MainIllustration" src="images/OPENWALL-Jean-Marie_Moncelet-001.jpg" alt=Artwork by Jean-Mary Moncelet, collage with Chet Baker, a horn, black ink, seagull, sunflowers."" />
+        <h3 class="Main__Subtitle">VIRTUAL EXHIBITION</h3>
+        <img class="MainIllustration" alt="Artwork by Jean-Mary Moncelet, mixed media, colors, affichisme, painting, female face, magazine cut-outs, scribbles." src="images/OPENWALL-Jean-Marie_Moncelet-002.jpg">
+        <h4 class="Main__ArtistName">JEAN-MARIE <span class="ArtistLastNameBold">MONCELET</span></h4>
+        <img class="MainIllustration" alt="Artwork by Jean-Mary Moncelet, collage with paper cut-outs, figures of human beings, paper-strips, torn paper, crimson square, cat." src="images/OPENWALL-Jean-Marie_Moncelet-003.jpg">
+        <h4 class="Main__ArtistName">JEAN-MARIE <span class="ArtistLastNameBold">MONCELET</span></h4>
+        <img class="MainIllustration" alt="Artwork by Jean-Mary Moncelet with horse, yellow lines, strips of paper, a horse-rider's shirted arm, colors, circular, centered composition." src="images/OPENWALL-Jean-Marie_Moncelet-004.jpg">
+        <h4 class="Main__ArtistName">JEAN-MARIE <span class="ArtistLastNameBold">MONCELET</span></h4>
+    </main>
+    <footer class="EventFooter">
+        <p>Exhibitors: ank VLASBLOM   bernadette MORAND  christine VERHAERT   elena DRAGULELEI   george ANDROUTSOS heber PASSERHAUT   jette lili HOLLESEN   laslo KOSCSO   leonardo PATRUNO   madeleine WORIES   mami KAWASAKI   manuel ortega OYONARTE   françoise BRACKE   mária HANUSOVSKA    mohammad EUNUS    monique VIRELAUDE    muriel MASSIN    ricardo ZEBALLOS    sandee JOHNSON    syporca WHANDAL   david RU   lino PORRARI   eva GYORFFY   wolfgang KAHLE   pascale MORELOT - PALU   barbara LO - FARO   nancy DRIGOTAS   christopher PADGETT HUNNICUT   echi AABERG   jean-claude ZANNONI   ezio   cascinArte FOGLIA   pien van der BEEK   margaret FOREST   irén GEDEON   cvetka HOJNIK   henk van VESSEM   tadeusz BARANOWSKI   monique THOMAS  YS   keith KIM   carolina ITURROSPE   ibrahim BARGHOUD   yuri MARUSHKIN   jean  - marie MONCELET</p>
+    </footer>
+    
+    
+    <!-- <header id="header">
         <h1 id="title">"future <strong>is</strong> now"</h1>
         <p id="info">Virtual exhibition with the participation of artWall's users,<br>
         Organized by artWall's founder curator László Ladányi</p>
@@ -102,6 +61,6 @@
         Supporters: Sandee JOHNSON  Claude SMITH  Gyula Mihály ÁGH  Christopher PADGETT HUNNICUTT
     </p>
 
-    </main>
+    </main> -->
 </body>
 </html>

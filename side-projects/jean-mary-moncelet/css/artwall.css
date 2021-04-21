@@ -1,0 +1,61 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.EventHeader {
+    
+}
+
+.EventHeader__Title {
+    font-size: 55px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.BoldText {
+    font-weight: 900;
+}
+
+.EventHeader__Description {
+    font-size: 14px;
+    margin: 0;
+    padding: 1px;
+}
+
+.Header__Subtitle {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+.MainIllustration {
+    max-width: 100%;
+}
+
+.MainContainer {
+    text-align: center;
+}
+
+.Main__Subtitle {
+    color: white;
+    background-color: black;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.Main__ArtistName {
+    font-size: 17px;
+    letter-spacing: .5rem;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ArtistLastNameBold {
+    font-weight: bold;
+}
